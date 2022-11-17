@@ -89,7 +89,7 @@ add_action( 'admin_menu', 'tt_add_menu_items' );
  */
 function tt_add_menu_items() {
 	add_menu_page(
-		__( 'Example Plugin List Table test on name', 'wp-list-table-example' ), // Page title.
+		__( 'Example Plugin List Table', 'wp-list-table-example' ), // Page title.
 		__( 'List Table Example', 'wp-list-table-example' ),        // Menu title.
 		'activate_plugins',                                         // Capability.
 		'tt_list_test',                                             // Menu slug.
